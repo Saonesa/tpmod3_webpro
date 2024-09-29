@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>1303223123 - Sahrul Gunawan</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Tag div digunakan sebagai container utama untuk membungkus seluruh konten halaman -->
+
+        <h1>Profil Diri</h1>
+
+        <!-- Tag img digunakan untuk menampilkan gambar profil pengguna -->
+        <img src="../tp3/img/sahrul.jpg" alt="Foto Profil">
+
+        <h2>Informasi Pribadi</h2>
+        <p> Halo! Saya adalah mahasiswa Telkom University </p>
+
+        <!-- Tag table digunakan untuk menyusun data dalam bentuk tabel -->
+        <table>
+            <tr>
+                <!-- Tag th digunakan untuk memberikan judul kolom pada tabel -->
+                <th>Nama</th>
+                <td>Sahrul Gunawan</td>
+            </tr>
+            <tr>
+                <th>Tanggal Lahir</th>
+                <td>30 Agustus 2004</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>sahrulg@student.telkomuniversity</td>
+            </tr>
+        </table>
+
+        <h2>Video Perkenalan</h2>
+
+        <!-- Tag video digunakan untuk menampilkan video pada halaman web -->
+        <video controls>
+            <source src="../tp3/videos/sahrul.mp4" type="video/mp4">
+            Browser Anda tidak mendukung tag video.
+        </video>
+
+        <h2> Keterampilan </h2>
+        <table>
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <td>HTML & CSS</td>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+
+        <div class="form-section">
+            <h2>Hubungi Saya</h2>
+
+            <!-- Tag form digunakan untuk membuat formulir -->
+            <form>
+                <!-- Tag input digunakan untuk menerima masukan dari pengguna -->
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <!-- Tag button digunakan untuk membuat tombol pengiriman -->
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+
+        <div class="link-section">
+            <h2>Media Sosial</h2>
+
+            <!-- Tag a digunakan untuk membuat tautan ke halaman eksternal -->
+            <a href="https://www.instagram.com/sahrulgwann" target="_blank">Instagram</a> |
+            <a href="https://www.linkedin.com/in/sahrulg/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/Saonesa" target="_blank">Github</a>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
